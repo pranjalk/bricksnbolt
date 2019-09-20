@@ -1,0 +1,83 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+} */
+
+
+.main-wrapper {
+  width: 100%;
+}
+
+
+.wall {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; */
+  column-count: 5;
+  column-gap: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.brick {
+  /* background-color: #eee; */
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 320px;
+  min-width: 320px;
+  min-height: 100px;
+  transition: height 2s linear;
+  padding: 10px;
+  position: relative;
+  /* width: 100%;
+  display: flex;
+  justify-content: space-evenly; */
+}
+
+/* .brick > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+} */
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #b4b4b3;
+  border-radius: 5px;
+  width: 500px;
+}
+
+
+.login-element {
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+}
